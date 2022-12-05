@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cash Register App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous"/>
+</head>
+<body>
+    <div class="container">
+        <h1 class="header bold">Cash Register App</h1>
+        <p class="description">
+            Enter the bill amount of purchase and cash given by the customer to know thw minimum number of notes to return. 
+        </p>
+    
+        
+        <label for="bill-amount" class="bill-amount-label bold">Bill Amount:</label>
+        <input type="number" class="bill-amount">
+        <label for="cash-given" class="cash-given-label bold">Cash Given:</label>
+        <input type="number" class="cash-given">
+        <div class="btn">
+            <button class="submit-btn">Submit</button>
+            <button class="reset-btn">Reset</button>
+        </div>
+       
+        <div class="return-change"></div><br/>
+        <table class="notes-table" >
+            <tr>
+                <th>No. of notes</th>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+            </tr>
+            <tr>
+                <th>Note</th>
+                <td>2000</td>
+                <td>500</td>
+                <td>100</td>
+                <td>20</td>
+                <td>10</td>
+                <td>5</td>
+                <td>1</td>
+            </tr>
+        </table>
+        <footer class = "foot">
+            <div class="made-stmt">Made with ❤ by SaiSumanth</div>
+        <ul class=  "item-link" >
+            <li class= "initem" > <a  class = "item" href="https://www.linkedin.com/in/kacham-sai-sumanth-33a513176/"><i class="fab fa-linkedin-in logo"></i></a></li>
+            <li class= "initem" > <a class = "item" href="https://github.com/saisumanthkacham"><i class="fab fa-github logo"></i></a>  </li>
+            <!-- <li class= "initem" > <a class = "item" href="https://twitter.com/kachamsatwika"><i class="fa-brands fa-behance"></i></a> </li> -->
+            <li class= "initem" > <a class = "item gmail-laptop" href="https://mail.google.com/mail/u/2/#inbox?compose=new" target="_blank"><i class="fas fa-envelope"></i></a> </li>
+            <li class= "initem" > <a class = "item gmail-phone" href="mailto:saisumanthkacham@gmail.com"><i class="fas fa-envelope"></i></a> </li>
+            </ul>
+        </footer>
+     
+    </div>
+    <script src="app.js" type="text/javascript"></script>
+</body>
+</html>
